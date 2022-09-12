@@ -1,6 +1,5 @@
-import java.util.*;
 
-public class BruteForceAlgorithmOriginal{
+public class BruteForceAlgorithm{
 
      public static void main(String []args){
 
@@ -34,15 +33,11 @@ public class BruteForceAlgorithmOriginal{
 
 
         for(int a = 0; a < array.length; a++)
-        {
-            
+        { 
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
             {
-                
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = entry1 + entry2 + array[c];
@@ -51,90 +46,61 @@ public class BruteForceAlgorithmOriginal{
             }
         }
         
-        
         for(int a = 0; a < array.length; a++)
         {
-            
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
             {
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = array[c];
-
                     for(int d = 0; d < array.length; d++)
-                    {
-                        
+                    { 
                         entry4 = entry1 + entry2 + entry3 + array[d];
                         System.out.println(entry4);
                     }
                 }
             }
-            
         }
-        
         
         for(int a = 0; a < array.length; a++)
         {
-            
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
             {
-                
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = array[c];
-
                     for(int d = 0; d < array.length; d++)
                     {
-                        
                         entry4 = array[d];
-                        
-                        
                         for(int e = 0; e < array.length; e++)
                         {
-                            
                             entry5 = entry1 + entry2 + entry3 + entry4 + array[e];
                             System.out.println(entry5);
                         }
                     }
                 }
             }
-            
         }
-        
         
         for(int a = 0; a < array.length; a++)
         {
-            
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
             {
-                
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = array[c];
-
                     for(int d = 0; d < array.length; d++)
                     {
-                        
                         entry4 = array[d];
-                        
-                        
                         for(int e = 0; e < array.length; e++)
                         {
-                            
                             entry5 = array[e];
-                            
                             for(int f = 0; f < array.length; f++)
                             {
                                 entry6 = entry1 + entry2 + entry3 + entry4 + entry5 + array[f];
@@ -145,42 +111,29 @@ public class BruteForceAlgorithmOriginal{
                     }
                 }
             }
-            
         }
         
         for(int a = 0; a < array.length; a++)
         {
-            
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
-            {
-                
+            { 
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = array[c];
-
                     for(int d = 0; d < array.length; d++)
                     {
-                        
                         entry4 = array[d];
-                        
-                        
                         for(int e = 0; e < array.length; e++)
                         {
-                            
                             entry5 = array[e];
-                            
                             for(int f = 0; f < array.length; f++)
                             {
                                 entry6 =  array[f];
-                                
                                 for(int g = 0; g < array.length; g++)
                                 {
                                     entry7 = entry1 + entry2 + entry3 + entry4 + entry5 + entry6 + array[g];
-                                    
                                     System.out.println(entry7);
                                 }
                             }
@@ -188,47 +141,32 @@ public class BruteForceAlgorithmOriginal{
                     }
                 }
             }
-            
         }
         
         for(int a = 0; a < array.length; a++)
         {
-            
             entry1 = array[a];
-            
             for(int b = 0; b < array.length; b++)
             {
-                
                 entry2 = array[b];
-                
                 for(int c = 0; c < array.length; c++)
                 {
                     entry3 = array[c];
-
                     for(int d = 0; d < array.length; d++)
                     {
-                        
                         entry4 = array[d];
-                        
-                        
                         for(int e = 0; e < array.length; e++)
                         {
-                            
                             entry5 = array[e];
-                            
                             for(int f = 0; f < array.length; f++)
                             {
                                 entry6 =  array[f];
-                                
                                 for(int g = 0; g < array.length; g++)
                                 {
                                     entry7 = array[g];
-                                    
                                     for(int h = 0; h < array.length; h++)
                                     {
-                                        
                                         entry8 = entry1 + entry2 + entry3 + entry4 + entry5 + entry6 + entry7 + array[h];
-                                        
                                         System.out.println(entry8);
                                     }
                                     
@@ -238,11 +176,7 @@ public class BruteForceAlgorithmOriginal{
                     }
                 }
             }
-            
         }
-        
-        
-
-
+  
      }
 }
